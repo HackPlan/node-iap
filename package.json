@@ -21,9 +21,10 @@
   "author": "Ron Korving <rkorving@wizcorp.jp>",
   "license": "MIT",
   "dependencies": {
-    "minimist": "0.0.8",
+    "form-urlencoded": "0.0.6",
     "jwt-simple": "0.2.0",
-    "form-urlencoded": "0.0.6"
+    "minimist": "0.0.8",
+    "proxying-agent": "^2.1.1"
   },
   "devDependencies": {
     "jsdoc": "3.3.0-alpha4",

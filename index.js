@@ -31,3 +31,5 @@ exports.verifyPayment = function (platform, payment, cb) {
 		cb(null, result);
 	});
 };
+
+exports.setProxy = require('./lib/config').setProxy
