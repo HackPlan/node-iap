@@ -33,3 +33,4 @@ exports.verifyPayment = function (platform, payment, cb) {
 };
 
 exports.setProxy = require('./lib/config').setProxy
+exports.setDomain = require('./lib/config').setDomain
